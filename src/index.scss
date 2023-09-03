@@ -19,6 +19,7 @@ body {
   height: 50px;
   padding: 1em 3em;
   box-sizing: border-box;
+
   .icon {
     font-size: 1.4em;
   }
@@ -45,27 +46,59 @@ body {
       transition: ease-in-out .35s;
       cursor: pointer;
     }
-
-    .get-started-btn {
-      border-color: $white;
-      border-radius: 6px;
-      font-size: 1em;
-      padding: 0em 25px;
-      font-weight: 500;
-    }
   }
 }
 
+.get-started-btn {
+  border-color: $white;
+  border-radius: 6px;
+  font-size: 1em;
+  padding: 0em 25px;
+  font-weight: 500;
+  height: 50px;
+}
+
 .main-content {
-  width: calc(100vh - 70px);
+  height: calc(100vh - 70px - 50px);
 }
 
 .full-height,
-.navbar, .topbar {
+.navbar,
+.topbar,
+.hero {
   height: 100%;
 }
 
 .block,
-body {
+body,
+.main-content,
+.hero {
   width: 100%;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3)), url(./assets/hero.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  height: 65%;
+  width: 55%;
+  opacity: .9;
+  padding: 3em;
+  box-sizing: border-box;
+  span:nth-child(1) {
+    padding: .2em .8em;
+    border-radius: 4px;
+  }
+
+  .header {
+    font-size: 2.5em !important;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    font-weight: 400;
+  }
 }
