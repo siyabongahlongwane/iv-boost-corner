@@ -7,7 +7,9 @@ $black: #000;
 $gray: #3c3a3a;
 
 /* Colors */
-.primary-col, .nav-links>ul>li:hover  {
+.primary-col,
+.nav-links>ul>li:hover,
+.footer-links>span:hover {
   color: $primaryGreen;
 }
 
@@ -40,7 +42,8 @@ $gray: #3c3a3a;
   background-color: $blue-grey;
 }
 
-.white-bg, .box {
+.white-bg,
+.box {
   background-color: $white;
 }
 

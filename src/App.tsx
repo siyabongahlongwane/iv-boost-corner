@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import Topbar from './components/Topbar';
@@ -15,6 +16,7 @@ function App() {
       </div>
       <div className="main-content">
         <Hero></Hero>
+        <Footer></Footer>
       </div>
     </div>
   )

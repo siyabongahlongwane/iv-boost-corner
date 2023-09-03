@@ -60,6 +60,7 @@ body {
 
 .main-content {
   height: calc(100vh - 70px - 50px);
+  overflow-y: auto;
 }
 
 .full-height,
@@ -100,5 +101,20 @@ body,
 
   h2 {
     font-weight: 400;
+  }
+}
+
+.padding-std {
+  padding: 0 1em;
+}
+
+.padding-med {
+  padding: 3em;
+}
+
+.footer {
+  .title{
+    border-bottom: 2px solid $gray;
+    width: 40%;
   }
 }

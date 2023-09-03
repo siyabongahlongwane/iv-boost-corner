@@ -26,10 +26,18 @@
     gap: .7em;
 }
 
+.gap-1 {
+    gap: 1em;
+}
+
 .gap-med {
     gap: 2em;
 }
 
 .align-center {
     text-align: center;
+}
+
+.flex-1 {
+    flex: 1;
 }
