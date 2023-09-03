@@ -1,5 +1,6 @@
 /* Theme Colors */
 $primaryGreen: #62bd5e;
+$blue: #3b5998;
 $blue-grey: #eff4fa;
 $white: #fff;
 $black: #000;
@@ -20,6 +21,10 @@ $black: #000;
 
 .black-col {
   color: $black;
+}
+
+.blue-col {
+  color: $blue;
 }
 
 /* Background Colors */

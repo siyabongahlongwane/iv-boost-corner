@@ -11,16 +11,24 @@ body {
   background-color: $black;
 }
 
-
 .app-wrapper {
   height: 100vh;
+}
+
+.topbar-wrapper {
+  height: 50px;
+  padding: 1em 3em;
+  box-sizing: border-box;
+  .icon {
+    font-size: 1.4em;
+  }
 }
 
 .navbar-wrapper {
   height: 80px;
 
   .navbar {
-    padding: 1em;
+    padding: 1em 3em;
     box-sizing: border-box;
 
     .logo {
@@ -53,7 +61,7 @@ body {
 }
 
 .full-height,
-.navbar {
+.navbar, .topbar {
   height: 100%;
 }
 
