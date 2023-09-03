@@ -1,0 +1,40 @@
+/* Theme Colors */
+$primaryGreen: #62bd5e;
+$blue-grey: #eff4fa;
+$white: #fff;
+$black: #000;
+
+
+/* Colors */
+.primary-col, .nav-links>ul>li:hover  {
+  color: $primaryGreen;
+}
+
+.blue-grey-col {
+  color: $blue-grey;
+}
+
+.white-col {
+  color: $white;
+}
+
+.black-col {
+  color: $black;
+}
+
+/* Background Colors */
+.primary-bg {
+  background-color: $primaryGreen;
+}
+
+.blue-grey-bg {
+  background-color: $blue-grey;
+}
+
+.white-bg {
+  background-color: $white;
+}
+
+.black-bg {
+  background-color: $black;
+}
