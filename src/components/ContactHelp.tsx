@@ -1,9 +1,9 @@
 const ContactHelp = () => {
   return (
     <div className="contact-help-wrapper d-flex flex-col align-items-center gap-med block">
-      <div className="block">
-        <h2 className="align-center">We are here to help you.</h2>
-        <p className="align-center">Reach out to us and we will be more than happy to assist!</p>
+      <div className="block align-center">
+        <h1>We are here to help you.</h1>
+        <p>Reach out to us and we will be more than happy to assist!</p>
       </div>
       <div className="d-flex flex-row justify-content-between max-width-75">
         <div className="card d-flex flex-col align-items-center gap-1">
