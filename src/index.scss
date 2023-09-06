@@ -39,6 +39,9 @@ body {
       list-style: none;
       gap: 2.5em;
       padding: 0 1em;
+      li > a {
+        text-decoration: none;
+      }
     }
 
     .nav-links>ul>li:hover {
@@ -83,7 +86,6 @@ body,
 }
 
 .box {
-  height: 65%;
   width: 55%;
   opacity: .9;
   padding: 3em;

@@ -8,9 +8,9 @@ $gray: #3c3a3a;
 
 /* Colors */
 .primary-col,
-.nav-links>ul>li:hover,
+.nav-links>ul>li > a:hover,
 .footer-links>span:hover {
-  color: $primaryGreen;
+  color: $primaryGreen !important;
 }
 
 .blue-grey-col {
@@ -21,7 +21,7 @@ $gray: #3c3a3a;
   color: $white;
 }
 
-.black-col {
+.black-col, .nav-links>ul>li>a {
   color: $black;
 }
 

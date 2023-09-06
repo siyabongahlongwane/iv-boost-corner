@@ -9,25 +9,25 @@ import Topbar from "./components/Topbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="app-wrapper d-flex flex-col">
-      <div className="topbar-wrapper black-bg">
-        <Topbar></Topbar>
-      </div>
-      <div className="navbar-wrapper">
-        <Navbar></Navbar>
-      </div>
-      <div className="main-content">
-        <Router>
+    <Router>
+      <div className="app-wrapper d-flex flex-col">
+        <div className="topbar-wrapper black-bg">
+          <Topbar></Topbar>
+        </div>
+        <div className="navbar-wrapper">
+          <Navbar></Navbar>
+        </div>
+        <div className="main-content">
           <Routes>
             <Route path="/" element={<Hero></Hero>}></Route>
-            <Route path="about-us" element={<About></About>}></Route>
-            <Route path="products" element={<Products></Products>}></Route>
-            <Route path="contact-us" element={<Contact></Contact>}></Route>
+            <Route path="/about-us" element={<About></About>}></Route>
+            <Route path="/products" element={<Products></Products>}></Route>
+            <Route path="/contact-us" element={<Contact></Contact>}></Route>
           </Routes>
-        </Router>
-        <Footer></Footer>
+          <Footer></Footer>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
