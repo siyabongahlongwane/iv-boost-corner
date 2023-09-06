@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="app-wrapper d-flex flex-col">
-      <div className="topbar-wrapper">
+      <div className="topbar-wrapper black-bg">
         <Topbar></Topbar>
       </div>
       <div className="navbar-wrapper">

@@ -1,6 +1,6 @@
 const Topbar = () => {
   return (
-    <div className="topbar black-bg white-col d-flex flex-row justify-content-between align-items-center">
+    <div className="topbar white-col d-flex flex-row justify-content-between align-items-center">
       <div className="d-flex flex-col justify-content-center">
         <div className="d-flex d-flex-row gap-med">
           <div className="d-flex flex-row gap-std">

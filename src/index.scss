@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: $black;
 }
 
 .app-wrapper {
@@ -121,4 +120,28 @@ body,
 
 .jumbotron-wrapper {
   padding: 85px 0;
+}
+
+.contact-help-wrapper {
+  padding: 40px 0;
+  .card {
+    width: 32%;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 3px #adecaa;
+    .icon-wrapper {
+      background-color: #dbf6cb;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+      border: 2px solid $primaryGreen;
+      .fa {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.max-width-75 {
+  width: 75%;
 }
