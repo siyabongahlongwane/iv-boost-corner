@@ -39,7 +39,8 @@ body {
       list-style: none;
       gap: 2.5em;
       padding: 0 1em;
-      li > a {
+
+      li>a {
         text-decoration: none;
       }
     }
@@ -158,11 +159,14 @@ body,
   .contact-form {
     max-width: 600px;
     width: 550px;
-    input, textarea {
+
+    input,
+    textarea {
       padding: 1.2em;
       border: 2px solid $primaryGreen;
       border-radius: 10px;
     }
+
     button {
       width: 150px;
     }
@@ -170,7 +174,7 @@ body,
 }
 
 .green-glow {
-  // box-shadow: 1px 1px 10px 3px #adecaa;
+  box-shadow: 1px 1px 10px 3px #adecaa;
 }
 
 .jumbotron-wrapper {
@@ -178,4 +182,26 @@ body,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.product-wrapper {
+  padding: 50px;
+  box-sizing: border-box;
+
+  .product-card {
+    width: 32%;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    .text {
+      padding: 10px;
+    }
+
+    .image-wrapper {
+      padding: 10px;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+  }
 }
