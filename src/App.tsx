@@ -2,7 +2,7 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Topbar from "./components/Topbar";
@@ -19,7 +19,7 @@ function App() {
         </div>
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Hero></Hero>}></Route>
+            <Route path="/" element={<Home></Home>}></Route>
             <Route path="/about-us" element={<About></About>}></Route>
             <Route path="/products" element={<Products></Products>}></Route>
             <Route path="/contact-us" element={<Contact></Contact>}></Route>

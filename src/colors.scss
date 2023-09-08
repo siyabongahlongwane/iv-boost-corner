@@ -1,6 +1,7 @@
 /* Theme Colors */
 $primaryGreen: #62bd5e;
 $blue: #3b5998;
+$darkBlue: #0275d8;
 $blue-grey: #eff4fa;
 $white: #fff;
 $black: #000;
@@ -33,6 +34,10 @@ $gray: #3c3a3a;
   color: $gray;
 }
 
+.dark-blue-col {
+  color: $darkBlue;
+}
+
 /* Background Colors */
 .primary-bg {
   background-color: $primaryGreen;
@@ -40,6 +45,10 @@ $gray: #3c3a3a;
 
 .blue-grey-bg {
   background-color: $blue-grey;
+}
+
+.dark-blue-bg {
+  background-color: $darkBlue;
 }
 
 .white-bg,
