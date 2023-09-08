@@ -8,7 +8,7 @@ type Benefit = {
 const BenefitsCard = ({ icon, bgCol, iconCol, heading, description }: Benefit) => {
   return (
     <div
-      className={"d-flex flex-col align-items-center benefits-card gap-std " + bgCol}
+      className={"d-flex flex-col align-items-center benefits-card gap-std flex-1 " + bgCol}
     >
       <div className="rounded d-flex flex-col white-bg justify-content-center align-items-center icon-wrapper">
         <i className={icon + iconCol}></i>
