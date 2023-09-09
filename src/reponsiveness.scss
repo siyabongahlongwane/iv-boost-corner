@@ -25,9 +25,16 @@
           padding-bottom: 6px;
         }
       }
-      
+
     .menu-icon {
         font-size: 25px;
     }
+
+    .footer {
+        padding: .5em !important;
+        .title {
+        width: unset !important;
+    }
+}
     
 }

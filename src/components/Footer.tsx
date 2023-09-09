@@ -3,14 +3,14 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className="d-flex flex-row white-col padding-med justify-content-between footer">
-      <div className="d-flex flex-col flex-1 padding-std gap-med">
+    <div className="d-flex flex-row flex-col-xs white-col padding-med justify-content-between footer gap-1-xs">
+      <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
         <img width="150px" src={logo} alt="IV Boost Corner Logo" />
         <span>
           We target people who work hard as they need energy, sportsmen, sportswomen, people with skin problems, older people with athritis, body pains, muscle pain, people who want to detox, or have a hang over.
         </span>
       </div>
-      <div className="d-flex flex-col flex-1 padding-std gap-med">
+      <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
         <h2 className="title">Contact Us</h2>
         <div className="d-flex flex-col gap-std">
         <div className="d-flex flex-row gap-1">
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         </div>
       </div>
-      <div className="d-flex flex-col flex-1 padding-std gap-med">
+      <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
         <h2 className="title">Quick Links</h2>
         <div className="d-flex flex-col gap-1 footer-links">
           <span><NavLink className="no-decoration white-col" to={'/'}>Home</NavLink></span>
