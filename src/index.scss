@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import './colors.scss';
 @import './flex.scss';
+@import './reponsiveness.scss';
 
 * {
   margin: 0;
@@ -36,7 +37,6 @@ body {
     }
 
     .nav-links>ul {
-      list-style: none;
       gap: 2.5em;
       padding: 0 1em;
 
@@ -76,7 +76,7 @@ body {
 .block,
 body,
 .main-content,
-.hero {
+.hero, .menu-items li {
   width: 100%;
 }
 
@@ -197,6 +197,7 @@ body,
     width: 32%;
     box-sizing: border-box;
     margin-bottom: 32px;
+
     .text {
       padding: 10px;
     }
@@ -213,10 +214,12 @@ body,
 
 .benefits-card {
   padding: 20px;
+
   .icon-wrapper {
     height: 60px;
     width: 60px;
     padding: 10px;
+
     .fa {
       font-size: 30px;
     }
@@ -239,10 +242,24 @@ body,
   min-height: 300px;
 }
 
-.green-bar  {
+.green-bar {
   width: 10px;
 }
 
 .inherit-height {
   height: inherit;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+
+.nav-links>ul, .remove-list-styles {
+  list-style: none;
+  padding: 0;
 }

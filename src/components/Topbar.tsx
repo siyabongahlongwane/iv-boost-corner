@@ -1,15 +1,15 @@
 const Topbar = () => {
   return (
-    <div className="topbar white-col d-flex flex-row justify-content-between align-items-center">
+    <div className="topbar white-col d-flex flex-row flex-col-xs justify-content-between align-items-center">
       <div className="d-flex flex-col justify-content-center">
-        <div className="d-flex d-flex-row gap-med">
+        <div className="d-flex flex-row flex-col-xs align-items-center-xs gap-med gap-xs">
           <div className="d-flex flex-row gap-std">
             <i className="fa fa-phone primary-col"></i>
             <small>062 309 6853</small>
           </div>
-          <div className="d-flex flex-row gap-std">
-            <i className="fa fa-thumb-tack primary-col"></i>
-            <small>07 Sunrock Village, 131 Agulhas Rd, Klipportjie, 1459</small>
+          <div className="d-flex flex-row gap-std justify-content-center-xs block align-center-xs">
+            
+            <small><i className="fa fa-thumb-tack primary-col mr-1em"></i> 07 Sunrock Village, 131 Agulhas Rd, Klipportjie, 1459</small>
           </div>
         </div>
       </div>

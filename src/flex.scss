@@ -49,3 +49,42 @@
 .wrap {
     flex-wrap: wrap;
 }
+
+.d-none {
+    display: none;
+}
+
+.mr-1em {
+    margin-right: .5em;
+}
+
+@media (max-width: 600px) {
+
+    .flex-row-xs {
+        flex-direction: row;
+    }
+
+    .flex-col-xs {
+        flex-direction: column;
+    }
+
+    .justify-content-center-xs {
+        justify-content: center;
+    }
+
+    .justify-content-between {
+        justify-content: space-between;
+    }
+
+    .align-items-center-xs {
+        align-items: center;
+    }
+
+    .gap-xs {
+        gap: 5px;
+    }
+
+    .align-center-xs {
+        text-align: center;
+    }
+}

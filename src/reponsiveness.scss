@@ -1,0 +1,33 @@
+@media (max-width: 600px){
+    .topbar-wrapper {
+        padding: 8px 4px !important;
+        height: auto !important;
+        .topbar {
+            height: inherit;
+        }
+    }
+
+    .navbar-wrapper .navbar {
+        padding: 1em !important;
+        .logo {
+            width: 60% !important;
+        }
+    }
+
+    .menu-items {
+        width: 92%;
+        top: 166px;
+        border-radius: 0 0 15px 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        z-index: 1;
+        li {
+          padding-bottom: 6px;
+        }
+      }
+      
+    .menu-icon {
+        font-size: 25px;
+    }
+    
+}
