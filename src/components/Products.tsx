@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <div className="d-flex flex-col">
       <BreadCrumbsJumbotron path={path}></BreadCrumbsJumbotron>
-      <div className="d-flex flex-row wrap justify-content-between product-wrapper">
+      <div className="d-flex flex-row wrap justify-content-between product-wrapper flex-col-xs">
           {productList.map((product: Product) => {
             return <ProductItem key={product.name} {...product}></ProductItem>;
           })}
