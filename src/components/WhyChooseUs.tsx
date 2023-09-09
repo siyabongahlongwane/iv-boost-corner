@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
           })}
         </div>
       </div>
-      <div className="d-flex flex-col flex-1 green-glow">
+      <div className="d-flex flex-col flex-1 green-glow banner">
         <img width={"100%"} src="../src/assets/side-banner.webp" alt="Drip" />
       </div>
     </div>

@@ -1,6 +1,16 @@
+import { useEffect } from "react";
 import ContactCard from "./ContactCard";
+import { useLocation } from "react-router-dom";
 
 const ContactHelp = () => {
+  const routePath = useLocation();
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
+  }, [routePath]);
+
   const contactCards = [
     {
       icon: "fa fa-map-marker",
@@ -23,7 +33,7 @@ const ContactHelp = () => {
       </div>
       <div className="d-flex flex-row justify-content-between max-width-75 flex-col-xs gap-2-xs">
         {contactCards.map((card) => {
-          return <ContactCard {...card}></ContactCard>
+          return <ContactCard key={card.text} {...card}></ContactCard>
         })}
       </div>
     </div>

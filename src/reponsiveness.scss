@@ -59,19 +59,35 @@
         width: 100% !important;
     }
 
-    .contact-form-wrapper {
-        padding: 30px !important;
-    }
-
+    .product-wrapper,
+    .about-card-wrapper,
+    .contact-form-wrapper,
     .contact-help-wrapper {
-        padding: 30px 0 !important;
-    }
-
-    .product-wrapper {
         padding: 30px !important;
     }
 
     .product-card {
         width: 100% !important;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .box {
+        width: 90% !important;
+        padding: 1em !important;
+
+        .header-xs {
+            font-size: 1.2em !important;
+        }
+    }
+
+    .d-none-xs {
+        display: none;
+    }
+
+    .d-flex-xs {
+        display: flex;
     }
 }

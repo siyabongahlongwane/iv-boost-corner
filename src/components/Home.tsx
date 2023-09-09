@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import BenefitsCard from "./BenefitsCard";
 import Hero from "./Hero";
 import WhyChooseUs from "./WhyChooseUs";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  const routePath = useLocation();
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
+  }, [routePath]);
   const benefits = [
     {
       icon: "fa fa-bolt",
@@ -42,7 +51,7 @@ const Home = () => {
       <div className="hero">
         <Hero></Hero>
       </div>
-      <div className="d-flex flex-row">
+      <div className="d-flex flex-row flex-col-xs">
         {benefits.map((benefit) => {
           return (
             <BenefitsCard key={benefit.heading} {...benefit}></BenefitsCard>
