@@ -1,7 +1,8 @@
-@media (max-width: 600px){
+@media (max-width: 600px) {
     .topbar-wrapper {
         padding: 8px 4px !important;
         height: auto !important;
+
         .topbar {
             height: inherit;
         }
@@ -9,6 +10,7 @@
 
     .navbar-wrapper .navbar {
         padding: 1em !important;
+
         .logo {
             width: 60% !important;
         }
@@ -21,10 +23,11 @@
         padding: 10px;
         box-sizing: border-box;
         z-index: 1;
+
         li {
-          padding-bottom: 6px;
+            padding-bottom: 6px;
         }
-      }
+    }
 
     .menu-icon {
         font-size: 25px;
@@ -32,9 +35,30 @@
 
     .footer {
         padding: .5em !important;
+
         .title {
-        width: unset !important;
+            width: unset !important;
+        }
     }
-}
+
+    .max-width-75 {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .contact-help-wrapper {
+        padding: 30px 30px 0 30px !important;
+        box-sizing: border-box;
+        .card {
+            width: 100% !important;
+        }
+    }
     
+    .contact-form {
+        width: 100% !important;
+    }
+
+    .contact-form-wrapper {
+        padding: 30px !important;
+    }
 }
