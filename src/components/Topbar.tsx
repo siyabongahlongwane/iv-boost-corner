@@ -17,7 +17,7 @@ const Topbar = () => {
       <div className="d-flex flex-row gap-std align-items-center">
         <small>Socials: </small>
         <a href="https://wa.me/27623096853?body='Hello, I am looking to get assistance with'"><i className="fa fa-whatsapp icon primary-col"></i></a>
-        <a href="https://wa.me/27623096853?body='Hello, I am looking to get assistance with'"><i className="fa fa-facebook icon blue-col"></i></a>
+        {/* <a href="https://wa.me/27623096853?body='Hello, I am looking to get assistance with'"><i className="fa fa-facebook icon blue-col"></i></a> */}
       </div>
     </div>
   );

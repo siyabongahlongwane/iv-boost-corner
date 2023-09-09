@@ -43,7 +43,7 @@ const Navbar = () => {
         </ul>
       </div>
       <button className="primary-bg white-col get-started-btn">
-        Get Started
+        <NavLink className="no-decoration white-col" to={'/contact-us'}>Get Started</NavLink>
       </button>
     </div>
   );

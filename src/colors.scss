@@ -10,7 +10,7 @@ $gray: #3c3a3a;
 /* Colors */
 .primary-col,
 .nav-links>ul>li > a:hover,
-.footer-links>span:hover {
+.footer-links>span:hover, .footer-links a:hover {
   color: $primaryGreen !important;
 }
 

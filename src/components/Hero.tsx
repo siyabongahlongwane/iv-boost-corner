@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Hero = () => {
   return (
     <div className="hero white-bg d-flex flex-row justify-content-center align-items-center">
@@ -18,14 +20,18 @@ const Hero = () => {
         </h2>
         <div className="d-flex flex-row gap-std">
           <div className="d-flex flex-col">
-            <button className="primary-bg white-col get-started-btn">
-              View Products
-            </button>
+            <NavLink className="no-decoration white-col" to={"/products"}>
+              <button className="primary-bg white-col get-started-btn">
+                View Products
+              </button>
+            </NavLink>
           </div>
           <div className="d-flex flex-col">
-            <button className="primary-bg white-col get-started-btn">
-              Contact Us
-            </button>
+            <NavLink className="no-decoration white-col" to={"/contact-us"}>
+              <button className="dark-blue-bg white-col get-started-btn">
+                Contact Us
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>

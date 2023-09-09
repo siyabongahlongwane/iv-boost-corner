@@ -112,6 +112,10 @@ body,
   padding: 0 1em;
 }
 
+.padding-1 {
+  padding: 0 1em;
+}
+
 .padding-med {
   padding: 3em;
 }
@@ -225,4 +229,20 @@ body,
 
 .half-block {
   width: 50%;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.about-card-wrapper {
+  min-height: 300px;
+}
+
+.green-bar  {
+  width: 10px;
+}
+
+.inherit-height {
+  height: inherit;
 }
