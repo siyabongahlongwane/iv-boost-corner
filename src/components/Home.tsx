@@ -1,17 +1,8 @@
-import { useEffect } from "react";
 import BenefitsCard from "./BenefitsCard";
 import Hero from "./Hero";
 import WhyChooseUs from "./WhyChooseUs";
-import { useLocation } from "react-router-dom";
 
 const Home = () => {
-  const routePath = useLocation();
-
-  useEffect(() => {
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 0);
-  }, [routePath]);
   const benefits = [
     {
       icon: "fa fa-bolt",

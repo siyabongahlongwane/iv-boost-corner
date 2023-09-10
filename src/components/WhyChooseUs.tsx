@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
         <div className="d-flex flex-col gap-xs">
           {reasons.map((reason) => {
             return (
-              <span className="gray-col">
+              <span key={reason} className="gray-col">
                 {" "}
                 <i className="fa fa-arrow-circle-right primary-col"></i>{" "}
                 {reason}

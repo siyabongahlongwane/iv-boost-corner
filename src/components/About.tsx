@@ -1,18 +1,9 @@
-import { useEffect } from "react";
 import AboutUsCards from "./AboutUsCards";
 import BenefitsCard from "./BenefitsCard";
 import BreadCrumbsJumbotron from "./BreadCrumbsJumbotron";
 import WhyChooseUs from "./WhyChooseUs";
-import { useLocation } from "react-router-dom";
 
 const About = () => {
-  const routePath = useLocation();
-
-  useEffect(() => {
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 0);
-  }, [routePath]);
 
   const path = "About Us";
   const benefits = [

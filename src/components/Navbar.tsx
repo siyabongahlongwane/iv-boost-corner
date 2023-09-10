@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.jpeg";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+
   const navItems = [
     {
       path: "/",
@@ -47,9 +48,9 @@ const Navbar = () => {
         <ul className="d-flex flex-row d-none">
           {navItems.map(({ path, name }) => {
             return (
-              <li>
+              <li key={name}>
                 <NavLink
-                  key={name}
+                 
                   className={({ isActive }) => (isActive ? "primary-col" : "")}
                   to={path}
                 >
@@ -70,9 +71,9 @@ const Navbar = () => {
         <ul className="d-flex flex-col remove-list-styles align-items-center gap-xs align-center-xs">
           {navItems.map(({ path, name }) => {
             return (
-              <li>
+              <li key={path}>
                 <NavLink
-                  key={path}
+                  
                   className={({ isActive }) =>
                     isActive
                       ? "primary-col no-decoration"

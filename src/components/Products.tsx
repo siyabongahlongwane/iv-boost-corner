@@ -1,7 +1,6 @@
 import productList, { Product } from "../products";
 import BreadCrumbsJumbotron from "./BreadCrumbsJumbotron";
 import ProductItem from "./ProductItem";
-// import ProductItem from "./ProductItem";
 
 const Products = () => {
   const path = "Products";
