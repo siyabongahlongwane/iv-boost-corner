@@ -70,10 +70,6 @@
         width: 100% !important;
     }
 
-    .banner {
-        display: none;
-    }
-
     .box {
         width: 90% !important;
         padding: 1em !important;
@@ -83,11 +79,11 @@
         }
     }
 
-    .d-none-xs {
-        display: none;
+    .d-none-xs, .desktop-menu, .banner  {
+        display: none !important;
     }
 
     .d-flex-xs {
-        display: flex;
+        display: flex !important;
     }
 }

@@ -50,7 +50,7 @@
     flex-wrap: wrap;
 }
 
-.d-none {
+.d-none, .menu-icon {
     display: none;
 }
 
@@ -59,7 +59,11 @@
 }
 
 @media (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
 
+    
     .flex-row-xs {
         flex-direction: row;
     }

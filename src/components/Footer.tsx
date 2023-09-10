@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpeg";
 
 const Footer = () => {
   return (
     <div className="d-flex flex-row flex-col-xs white-col padding-med justify-content-between footer gap-1-xs">
       <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
-        <img width="150px" src={logo} alt="IV Boost Corner Logo" />
+        <img width="200px" src={logo} alt="IV Boost Corner Logo" />
         <span>
           We target people who work hard as they need energy, sportsmen, sportswomen, people with skin problems, older people with athritis, body pains, muscle pain, people who want to detox, or have a hang over.
         </span>

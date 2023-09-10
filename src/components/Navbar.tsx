@@ -23,7 +23,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="navbar d-flex flex-row block white-bg full-height justify-content-between">
+    <div className="navbar d-flex flex-row block dimgrey-bg full-height justify-content-between">
       <div className="logo d-flex flex-col justify-content-center">
         <img className="block" src={logo} alt="IV Boost Logo" />
       </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </span>
         </div>
 
-        <ul className="d-flex flex-row d-none">
+        <ul className={"d-flex flex-row desktop-menu"}>
           {navItems.map(({ path, name }) => {
             return (
               <li key={name}>

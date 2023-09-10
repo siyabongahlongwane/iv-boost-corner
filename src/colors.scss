@@ -6,6 +6,7 @@ $blue-grey: #eff4fa;
 $white: #fff;
 $black: #000;
 $gray: #3c3a3a;
+$dimgrey: #f8f8f8;
 
 /* Colors */
 .primary-col,
@@ -62,4 +63,8 @@ $gray: #3c3a3a;
 
 .jumbotron-wrapper {
   background-color: $blue-grey;
+}
+
+.dimgrey-bg {
+  background-color: $dimgrey;
 }
