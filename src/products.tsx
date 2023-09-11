@@ -12,7 +12,7 @@ const productList: Product[] = [
         ingredients: ['2000mg glowbright liquid', '1000mg Glutamatrix', '2000mg vitamin C'], 
         benefits: 'It helps to treat pimples and eczema; Reduces scars, stretch marks and dark circles under eyes; It also reduces pigmentation and brightens the skin; It rehydrates the skin.', 
         price: '1050',
-        image: 'SKIN-RADIANCE.png'
+        image: 'SKIN_RADIANCE.webp'
     },
     {
         name: 'JET FUEL', 
@@ -61,7 +61,7 @@ const productList: Product[] = [
         ingredients: ['Magnesium', 'Vitamin B2, C, B6, B12', 'Biotin', 'Glutathione.'], 
         benefits: 'It is an anti-ageing agent; It reduces fine lines and wrinkles; Reduces kin pigmentation or darkening; Improves skin elasticity and firmness; Improves skin density and thickness; It improves joint and bone health; Improves nail and hair strength and growth.',
         price: '600',
-        image: 'ANTI-INFLAMMATORY_ICON.png'
+        image: 'COLLAGEN.png'
     },
     {
         name: 'FERTILITY DRIP', 
