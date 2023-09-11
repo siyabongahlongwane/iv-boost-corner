@@ -79,11 +79,23 @@
         }
     }
 
-    .d-none-xs, .desktop-menu, .banner  {
+    .d-none-xs,
+    .desktop-menu,
+    .banner {
         display: none !important;
     }
 
     .d-flex-xs {
         display: flex !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .desktop-menu-wrapper .active, .nav-links>ul>li > {
+        padding: 0.5em;
+    }
+
+    .active {
+        border-radius: 6px;
     }
 }

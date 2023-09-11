@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/iv n2_.png";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -23,7 +23,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="navbar d-flex flex-row block dimgrey-bg full-height justify-content-between">
+    <div className="navbar d-flex flex-row block full-height justify-content-between desktop-menu-wrapper">
       <div className="logo d-flex flex-col justify-content-center">
         <img className="block" src={logo} alt="IV Boost Logo" />
       </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <li key={name}>
                 <NavLink
                  
-                  className={({ isActive }) => (isActive ? "primary-col" : "")}
+                  className={({ isActive }) => (isActive ? "active" : "")}
                   to={path}
                 >
                   {name}

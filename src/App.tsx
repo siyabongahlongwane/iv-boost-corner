@@ -16,7 +16,7 @@ function App() {
         <div className="topbar-wrapper black-bg">
           <Topbar></Topbar>
         </div>
-        <div className="navbar-wrapper">
+        <div className="navbar-wrapper orange-bg">
           <Navbar></Navbar>
         </div>
         <div className="main-content" id="main-content">

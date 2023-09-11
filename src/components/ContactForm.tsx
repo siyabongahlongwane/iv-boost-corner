@@ -10,10 +10,10 @@ const ContactForm = () => {
     message: "",
   });
 
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(null);
-  const [response, setResponse] = useState(null);
-  const serverUrl = "http://localhost:5000/api/sendEmail";
+  // const [error, setError] = useState(null);
+  // const [loading, setLoading] = useState(null);
+  // const [response, setResponse] = useState(null);
+  const serverUrl = "https://email-server-visn.onrender.com/api/sendEmail";
   const {name, email, phone, subject, message} = form;
 
   const abortController = new AbortController();
@@ -50,7 +50,7 @@ const ContactForm = () => {
       <img width=
       '250px
       ' src=
-      'https://www.smarteyeapps.com/images/smarteye-apps-logo.png
+      'https://ivboostcorner.co.za/assets/logo.jpeg
       '>
     </div>
   <div>
@@ -80,7 +80,7 @@ const ContactForm = () => {
         .then((res) => res.json())
         .then((data) => {
           alert(data.msg)
-          setResponse(data);
+          // setResponse(data);
           setForm(
             {
               name: "",
@@ -94,7 +94,7 @@ const ContactForm = () => {
         .catch((err) => {
           console.log(err);
           alert(err.msg || "Email not sent successfully")
-          setResponse(err)
+          // setResponse(err)
         });
       }
   };

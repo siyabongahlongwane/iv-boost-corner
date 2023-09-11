@@ -8,8 +8,8 @@ const ProductItem = ({
   image,
 }: Product) => {
   return (
-    <div className="d-flex flex-col green-glow product-card">
-      <div className="d-flex image-wrapper primary-bg flex-col justify-content-center align-items-center">
+    <div className="d-flex flex-col green-glow product-card primary-bg">
+      <div className="d-flex image-wrapper white-bg flex-col justify-content-center align-items-center">
         <img
           className="green-glow"
           width={80}
@@ -18,13 +18,13 @@ const ProductItem = ({
           alt={name}
         />
       </div>
-      <div className="d-flex flex-col text">
+      <div className="d-flex flex-col text white-col">
         <h4>{name}</h4>
-        <span className='primary-col'>Ingredients</span>
+        <span className='white-col'>Ingredients</span>
         <small>{ingredients.join(", ")}</small>
-        <span className='primary-col'>Benefits</span>
+        <span className='white-col'>Benefits</span>
         <small>{benefits}</small>
-        <h3 className='primary-col'
+        <h3 className='white-col'
           style={
             price[0].length == 1 ? { display: "block" } : { display: "none" }
           }
@@ -37,10 +37,10 @@ const ProductItem = ({
           }
         >
           <h3>
-            <span className='primary-col'>{price[0]} </span>
+            <span className='white-col'>{price[0]} </span>
           </h3>
           <h3>
-            <span className='primary-col'>{price[1]} </span>
+            <span className='white-col'>{price[1]} </span>
           </h3>
         </div>
       </div>

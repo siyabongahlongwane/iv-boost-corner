@@ -8,19 +8,19 @@ $black: #000;
 $gray: #3c3a3a;
 $dimgrey: #f8f8f8;
 $red: red;
+$orange: orange;
 
 /* Colors */
 .primary-col,
-.nav-links>ul>li > a:hover,
 .footer-links>span:hover, .footer-links a:hover {
   color: $primaryGreen !important;
-}
+} 
 
 .blue-grey-col {
   color: $blue-grey;
 }
 
-.white-col {
+.white-col, .active, .nav-links>ul>li > a:hover, .desktop-menu  .active  {
   color: $white;
 }
 
@@ -61,7 +61,7 @@ $red: red;
   background-color: $white;
 }
 
-.black-bg, .footer {
+.black-bg, .footer, .desktop-menu .active {
   background-color: $black;
 }
 
@@ -71,4 +71,8 @@ $red: red;
 
 .dimgrey-bg {
   background-color: $dimgrey;
+}
+
+.orange-bg {
+  background-color: $orange;
 }
