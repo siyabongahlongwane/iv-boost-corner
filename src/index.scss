@@ -36,16 +36,16 @@ body {
       width: 170px;
     }
 
-    .nav-links>ul {
+    .nav-links ul {
       gap: 2.5em;
       padding: 0 1em;
 
-      li>a {
+      li a {
         text-decoration: none;
       }
     }
 
-    .nav-links>ul>li:hover {
+    .nav-links ul li:hover {
       transition: ease-in-out .35s;
       cursor: pointer;
     }
@@ -264,7 +264,7 @@ body,
 }
 
 
-.nav-links>ul, .remove-list-styles {
+.nav-links ul, .remove-list-styles {
   list-style: none;
   padding: 0;
 }
