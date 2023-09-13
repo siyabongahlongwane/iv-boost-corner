@@ -12,7 +12,7 @@ $orange: orange;
 
 /* Colors */
 .primary-col,
-.footer-links>span:hover, .footer-links a:hover {
+.footer-links a:hover {
   color: $primaryGreen !important;
 } 
 
@@ -21,11 +21,11 @@ $orange: orange;
 }
 
 .white-col, .active, .nav-links>ul>li > a:hover, .desktop-menu  .active  {
-  color: $white;
+  color: $white !important;
 }
 
-.black-col, .nav-links>ul>li>a {
-  color: $black;
+.black-col, .nav-links>ul>li>a, .footer-links a:hover {
+  color: $black !important;
 }
 
 .blue-col {
@@ -61,7 +61,7 @@ $orange: orange;
   background-color: $white;
 }
 
-.black-bg, .footer, .desktop-menu .active {
+.black-bg, .desktop-menu .active {
   background-color: $black;
 }
 

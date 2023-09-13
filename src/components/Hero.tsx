@@ -12,7 +12,7 @@ const Hero = () => {
             <h1 className="align-center header d-none-xs">
               We provide the best vitamin therapy at affordable rates!
             </h1>
-            <h1 className="align-center header-xs d-flex-xs">
+            <h1 className="align-center header-xs d-none d-flex-xs">
               We provide the best vitamin therapy at affordable rates!
             </h1>
           </div>
@@ -22,7 +22,7 @@ const Hero = () => {
           Looking to revitalise your energy levels or get skin glow?
         </h2>
 
-        <h3 className="align-center gray-col d-flex-xs">
+        <h3 className="align-center d-none gray-col d-flex-xs">
           Looking to revitalise your energy levels or get skin glow?
         </h3>
         <div className="d-flex flex-row gap-std">

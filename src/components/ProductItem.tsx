@@ -9,7 +9,7 @@ const ProductItem = ({
 }: Product) => {
   return (
     <div className="d-flex flex-col green-glow product-card primary-bg">
-      <div className="d-flex image-wrapper white-bg flex-col justify-content-center align-items-center">
+      <div className="d-flex image-wrapper orange-bg flex-col justify-content-center align-items-center">
         <img
           className="green-glow"
           width={80}

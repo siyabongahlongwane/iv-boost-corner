@@ -81,7 +81,7 @@ const productList: Product[] = [
         name: 'BIOTIN', 
         ingredients: ['1000mg Biotin (vitamin H)'], 
         benefits: 'It strengthens and promotes growth of hair and nails; it enhances natural glow of skin; it rebuilds tissues; it lowers cholesterol.', 
-        price: ['300 (Stand-alone drip)', 'R250 (Add on drip)'],
+        price: ['R300 (Stand-alone drip)', 'R250 (Add on drip)'],
         image: 'Biotin.png'
     },
     {
