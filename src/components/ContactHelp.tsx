@@ -14,7 +14,7 @@ const ContactHelp = () => {
   const contactCards = [
     {
       icon: "fa fa-map-marker",
-      text: "07 Sunrock Village, 131 Agulhas Rd, Klipportjie, 1459",
+      text: "Shop 58 Parkdene Boulevard, cnr McCaghey street & Rondebult avenue,  Parkdene, Boksburg, 1459",
     },
     {
       icon: "fa fa-envelope",

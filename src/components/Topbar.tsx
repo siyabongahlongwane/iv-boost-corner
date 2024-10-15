@@ -7,9 +7,9 @@ const Topbar = () => {
             <i className="fa fa-phone primary-col"></i>
             <small>062 309 6853</small>
           </div>
-          <div className="d-flex flex-row gap-std">
+          <div className="d-flex flex-row gap-std top-addy">
             <i className="fa fa-thumb-tack primary-col"></i>
-            <small>07 Sunrock Village, 131 Agulhas Rd, Klipportjie, 1459</small>
+            <small>Shop 58 Parkdene Boulevard, cnr McCaghey street & Rondebult avenue,  Parkdene, Boksburg, 1459</small>
           </div>
         </div>
       </div>

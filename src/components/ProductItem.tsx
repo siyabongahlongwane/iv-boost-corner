@@ -20,11 +20,16 @@ const ProductItem = ({
       </div>
       <div className="d-flex flex-col text white-col">
         <h4>{name}</h4>
-        <span className='white-col'>Ingredients</span>
+        <span className="white-col">Ingredients</span>
         <small>{ingredients.join(", ")}</small>
-        <span className='white-col'>Benefits</span>
-        <small>{benefits}</small>
-        <h3 className='white-col'
+        <span className="white-col">Benefits</span>
+        {Array.isArray(benefits) ? (
+          benefits.map((benefit, index) => <small key={index}>{benefit}</small>)
+        ) : (
+          <small>{benefits}</small>
+        )}
+        <h3
+          className="white-col"
           style={
             price[0].length == 1 ? { display: "block" } : { display: "none" }
           }
@@ -37,10 +42,10 @@ const ProductItem = ({
           }
         >
           <h3>
-            <span className='white-col'>{price[0]} </span>
+            <span className="white-col">{price[0]} </span>
           </h3>
           <h3>
-            <span className='white-col'>{price[1]} </span>
+            <span className="white-col">{price[1]} </span>
           </h3>
         </div>
       </div>

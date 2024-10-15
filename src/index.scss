@@ -76,7 +76,8 @@ body {
 .block,
 body,
 .main-content,
-.hero, .menu-items li {
+.hero,
+.menu-items li {
   width: 100%;
 }
 
@@ -121,9 +122,20 @@ body,
 }
 
 .footer {
-  .title {
-    border-bottom: 2px solid $gray;
-    width: 40%;
+
+  .title-section {
+    align-items: center;
+    gap: 5px;
+
+    .line {
+      height: 5px;
+      background-color: $gray;
+      width: 20%;
+    }
+  }
+
+  .fa {
+    margin-top: 5px;
   }
 
 }
@@ -134,20 +146,20 @@ body,
 
 .contact-help-wrapper {
   padding: 60px 0;
-  
+
   .card {
     width: 32%;
     padding: 1em;
     box-sizing: border-box;
     box-shadow: 1px 1px 10px 3px #adecaa;
-    
+
     .icon-wrapper {
       background-color: #dbf6cb;
       border-radius: 50%;
       height: 70px;
       width: 70px;
       border: 2px solid $primaryGreen;
-      
+
       .fa {
         font-size: 30px;
       }
@@ -161,11 +173,11 @@ body,
 
 .contact-form-wrapper {
   padding: 30px 0 60px 0;
-  
+
   .contact-form {
     max-width: 600px;
     width: 550px;
-    
+
     input,
     textarea {
       padding: 1.2em;
@@ -173,7 +185,7 @@ body,
       border-radius: 10px;
       box-sizing: border-box;
     }
-    
+
     button {
       width: 150px;
     }
@@ -194,20 +206,20 @@ body,
 .product-wrapper {
   padding: 50px;
   box-sizing: border-box;
-  
+
   .product-card {
     width: 32%;
     box-sizing: border-box;
     margin-bottom: 32px;
-    
+
     .text {
       padding: 10px;
     }
-    
+
     .image-wrapper {
       padding: 10px;
     }
-    
+
     img {
       border-radius: 50%;
       padding: 0.5em;
@@ -218,12 +230,12 @@ body,
 
 .benefits-card {
   padding: 20px;
-  
+
   .icon-wrapper {
     height: 60px;
     width: 60px;
     padding: 10px;
-    
+
     .fa {
       font-size: 30px;
     }
@@ -233,6 +245,7 @@ body,
 .copyright {
   padding: 1em;
 }
+
 .rounded {
   border-radius: 50%;
 }
@@ -266,7 +279,24 @@ body,
 }
 
 
-.nav-links ul, .remove-list-styles {
+.nav-links ul,
+.remove-list-styles {
   list-style: none;
   padding: 0;
+}
+
+
+.cta {
+  padding: .8em;
+  text-align: center;
+}
+
+.working-hours p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.working-hours span {
+  font-weight: bold;
 }

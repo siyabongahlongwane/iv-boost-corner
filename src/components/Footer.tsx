@@ -1,10 +1,13 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import logo from "../assets/iv n2_.png";
 import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
     <div className="d-flex flex-col block">
+      <div className="cta">
+        <b>Call out is available on appointment.</b>
+      </div>
       <div className="d-flex flex-row flex-col-xs white-col padding-med justify-content-between footer orange-bg gap-1-xs">
         <div className="d-flex flex-col flex-1 padding-std gap-1-xs">
           <div className="footer-logo-wrapper orange-bg">
@@ -18,31 +21,44 @@ const Footer = () => {
           </span>
         </div>
         <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
-          <h2 className="title">Contact Us</h2>
+          <div className="title-section d-flex flex-col">
+            <h2 className="title">Contact Us</h2>
+            <div className="line"></div>
+          </div>
           <div className="d-flex flex-col gap-std">
             <div className="d-flex flex-row gap-1">
               <i className="black-col fa fa-map-marker icon"></i>
-              <div className="d-flex flex-col gap-1">
-                <span>07 Sunrock Village, 131 Agulhas Rd</span>
-                <span>Klipportjie, 1459</span>
+              <div className="d-flex flex-col">
+                <span>
+                  Shop 58 Parkdene Boulevard, cnr McCaghey street & Rondebult
+                  avenue, Parkdene,
+                </span>
+                <span>Boksburg, 1459</span>
               </div>
             </div>
             <div className="d-flex flex-row gap-std">
               <i className="black-col fa fa-phone icon"></i>
               <div className="d-flex flex-col gap-std">
-                <span>062 309 6853</span>
+                <a className="phone no-decoration" href="tel:+27623096853">
+                  062 309 6853
+                </a>
               </div>
             </div>
 
             <div className="d-flex flex-row gap-std">
               <i className="black-col fa fa-envelope icon"></i>
               <div className="d-flex flex-col gap-std">
-                <span>info@ivboostcorner.co.za</span>
+                <a
+                  className="email no-decoration"
+                  href="mailto:info@ivboostcorner.co.za"
+                >
+                  info@ivboostcorner.co.za
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
+        {/* <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
           <h2 className="title">Quick Links</h2>
           <div className="d-flex flex-col gap-1 footer-links">
             <span>
@@ -65,6 +81,23 @@ const Footer = () => {
                 Contact Us
               </NavLink>
             </span>
+          </div>
+        </div> */}
+        <div className="d-flex flex-col flex-1 padding-std gap-med gap-1-xs">
+          <div className="title-section d-flex flex-col">
+            <h2 className="title">Operating Hours</h2>
+            <div className="line"></div>
+          </div>
+          <div className="working-hours">
+            <p>
+              Monday-Friday: <span>09:00-18:00</span>
+            </p>
+            <p>
+              Saturday: <span>09:00-17:00</span>
+            </p>
+            <p>
+              Sunday &amp; Public Holidays: <span>09:00-17:00</span>
+            </p>
           </div>
         </div>
       </div>

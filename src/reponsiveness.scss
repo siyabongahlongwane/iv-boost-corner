@@ -5,6 +5,12 @@
 
         .topbar {
             height: inherit;
+
+            .top-addy {
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 
@@ -91,7 +97,9 @@
 }
 
 @media (min-width: 600px) {
-    .desktop-menu-wrapper .active, .nav-links ul li {
+
+    .desktop-menu-wrapper .active,
+    .nav-links ul li {
         padding: 0.5em;
     }
 

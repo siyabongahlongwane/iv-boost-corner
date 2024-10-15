@@ -14,17 +14,25 @@ $orange: orange;
 .primary-col,
 .footer-links a:hover {
   color: $primaryGreen !important;
-} 
+}
 
 .blue-grey-col {
   color: $blue-grey;
 }
 
-.white-col, .active, .nav-links>ul>li > a:hover, .desktop-menu  .active  {
+.white-col,
+.active,
+.nav-links>ul>li>a:hover,
+.desktop-menu .active,
+.phone, .email, .cta {
   color: $white !important;
 }
 
-.black-col, .nav-links>ul>li>a, .footer-links a:hover {
+.black-col,
+.nav-links>ul>li>a,
+.footer-links a:hover,
+.email:hover,
+.phone:hover {
   color: $black !important;
 }
 
@@ -43,6 +51,7 @@ $orange: orange;
 .red-col {
   color: $red;
 }
+
 /* Background Colors */
 .primary-bg {
   background-color: $primaryGreen;
@@ -61,7 +70,8 @@ $orange: orange;
   background-color: $white;
 }
 
-.black-bg, .desktop-menu .active {
+.black-bg,
+.desktop-menu .active, .cta {
   background-color: $black;
 }
 
