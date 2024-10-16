@@ -104,7 +104,7 @@ const productList: Product[] = [
       "It Boosts the Immune system to fight seasonal fever allergies, sinusitis, infection & inflammation.",
       "Reduces Muscle pain & body pain",
     ],
-    price: "750/800",
+    price: ["R750/800", "R425 (Mini Immune)"],
     image: "IMMUNE-BOOST.png",
   },
   {
@@ -115,7 +115,7 @@ const productList: Product[] = [
       "Reduces fatigue, Anxiety & tiredness.",
       "Improve sleeping patterns.",
     ],
-    price: "950/1000",
+    price: ["R950/1000", "R500 (Mini Energy Boost)"],
     image: "myers.png",
   },
   {
@@ -137,7 +137,7 @@ const productList: Product[] = [
       "Regulate thyroid function.",
       "It regulates cholesterol.",
     ],
-    price: ["R300 (Stand-alone drip)", "R250 (Add on drip)"],
+    price: ["R300 (Stand-alone)", "R250 (Add on)"],
     image: "Biotin.png",
   },
   {
@@ -156,7 +156,7 @@ const productList: Product[] = [
       "Regulates hormones.",
       "Helps with arthritis, bone & Joint pains.",
     ],
-    price: "250",
+    price: ["R300 (Stand-alone)", "R250 (Add on)"],
     image: "B12.png",
   },
   {
@@ -175,7 +175,7 @@ const productList: Product[] = [
       "Reduces stress.",
       "Makes you feel lighter & healthier it brightens the natural skin colour.",
     ],
-    price: "750/800",
+    price: ["R750/800", "R425 (Mini Detox)"],
     image: "DETOX.png",
   },
   {
@@ -195,7 +195,7 @@ const productList: Product[] = [
       "Powerful anti-ageing agent",
       "Regulate body metabolic & inflammatory responses",
     ],
-    price: "1400",
+    price: ["R400 (Single Dose)", "R5500 (Package of 4 drips)"],
     image: "NAD+.png",
   },
 ];

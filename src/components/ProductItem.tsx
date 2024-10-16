@@ -14,39 +14,46 @@ const ProductItem = ({
           className="green-glow"
           width={80}
           height={80}
-          src={`../src/assets/${image}`}
+          src={
+            import.meta.env.MODE == "development"
+              ? `../src/assets/${image}`
+              : `/${image}`
+          }
           alt={name}
         />
       </div>
       <div className="d-flex flex-col text white-col">
-        <h4>{name}</h4>
+        <h4 className="uppercase">{name}</h4>
         <span className="white-col">Ingredients</span>
-        <small>{ingredients.join(", ")}</small>
+        {ingredients.map((benefit, index) => (
+          <small key={index}>{benefit}</small>
+        ))}
+
         <span className="white-col">Benefits</span>
         {Array.isArray(benefits) ? (
           benefits.map((benefit, index) => <small key={index}>{benefit}</small>)
         ) : (
           <small>{benefits}</small>
         )}
-        <h3
+        <h4
           className="white-col"
           style={
             price[0].length == 1 ? { display: "block" } : { display: "none" }
           }
         >
           R{price}
-        </h3>
+        </h4>
         <div
           style={
             price[0].length > 1 ? { display: "block" } : { display: "none" }
           }
         >
-          <h3>
+          <h4>
             <span className="white-col">{price[0]} </span>
-          </h3>
-          <h3>
+          </h4>
+          <h4>
             <span className="white-col">{price[1]} </span>
-          </h3>
+          </h4>
         </div>
       </div>
     </div>

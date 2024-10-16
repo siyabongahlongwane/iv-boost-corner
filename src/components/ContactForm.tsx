@@ -61,7 +61,7 @@ const ContactForm = () => {
     </p>
     
     <p>
-      You can call Siyabonga here : <b>${phone}</b>
+      You can call ${name} here : <b>${phone}</b>
     </p>
     
     <h5>This email has been delivered to you using the WEBGOORU PTY LTD email server</h5>
