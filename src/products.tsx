@@ -8,7 +8,7 @@ export type Product = {
 
 const productList: Product[] = [
   {
-    name: "SKIN CARE ROUTINE",
+    name: "SKIN RADIANCE DRIP",
     ingredients: ["High dose of Glutathione & Vitamin C"],
     benefits: [
       "It helps to treat pimples & eczema.",
@@ -154,7 +154,7 @@ const productList: Product[] = [
       "Reduces hot Flushes.",
       "Promotes sleep patterns.",
       "Regulates hormones.",
-      "Helps with arthritis, bone & Joint pains.",
+      "It boosts your energy levels",
     ],
     price: ["R300 (Stand-alone)", "R250 (Add on)"],
     image: "B12.png",
@@ -184,7 +184,7 @@ const productList: Product[] = [
       "High dose of amino acids.",
       "Contains glutamine, carnitine arginine (GAC).",
     ],
-    benefits: ["Boost your energy & improve mood."],
+    benefits: ["It converts fat into energy and reduces appetite."],
     price: "500/550",
     image: "weight.png",
   },
@@ -195,7 +195,7 @@ const productList: Product[] = [
       "Powerful anti-ageing agent",
       "Regulate body metabolic & inflammatory responses",
     ],
-    price: ["R400 (Single Dose)", "R5500 (Package of 4 drips)"],
+    price: ["R1400 (Single Dose)", "R5500 (Package of 4 drips)"],
     image: "NAD+.png",
   },
 ];
