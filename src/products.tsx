@@ -8,7 +8,7 @@ export type Product = {
 
 const productList: Product[] = [
   {
-    name: "SKIN RADIANCE DRIP",
+    name: "Skin glow drip",
     ingredients: ["High dose of Glutathione & Vitamin C"],
     benefits: [
       "It helps to treat pimples & eczema.",
@@ -18,7 +18,7 @@ const productList: Product[] = [
     image: "SKIN_RADIANCE.webp",
   },
   {
-    name: "JET FUEL",
+    name: "Jet A-1 drip",
     ingredients: [
       "High dose of energy boost, Vitamin B complex, Thiamine, Magnesium, Glutathione & Vitamin C.",
     ],
@@ -31,7 +31,7 @@ const productList: Product[] = [
     image: "JETFUEL.png",
   },
   {
-    name: "ANTI-INFLAMMATORY",
+    name: "Ease inflammatory",
     ingredients: [
       "High dose of energy boost, Vitamin B complex, Thiamine, Magnesium & Ca.",
       "High dose of Vitamin C.",
@@ -74,7 +74,7 @@ const productList: Product[] = [
     image: "SPORTS-ENDURANCE.png",
   },
   {
-    name: "HANGOVER DRIP",
+    name: "Bhabhalazi drip",
     ingredients: ["High dose of energy boost, Glutathione / Detox."],
     benefits: [
       "Reduces headaches & Nausea.",
@@ -86,7 +86,7 @@ const productList: Product[] = [
     image: "HANGOVER.png",
   },
   {
-    name: "MENOPAUSE DRIP",
+    name: "Meno Ease drip",
     ingredients: ["High dose of Glutathione, Vitamin C, Vitamin B12 & Biotin."],
     benefits: [
       "Reduces hot Flushes.",
@@ -119,7 +119,7 @@ const productList: Product[] = [
     image: "myers.png",
   },
   {
-    name: "FERTILITY DRIP",
+    name: "Fertility Boost IV",
     ingredients: ["High dose of Glutathione"],
     benefits: [
       "It Improves quality of Spermatozoa & Ovum’s.",

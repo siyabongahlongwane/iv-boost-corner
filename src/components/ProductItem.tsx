@@ -23,7 +23,7 @@ const ProductItem = ({
         />
       </div>
       <div className="d-flex flex-col text white-col">
-        <h4 className="uppercase">{name}</h4>
+        <h4 className="uppercase">{name.toUpperCase()}</h4>
         <span className="white-col">Ingredients</span>
         {ingredients.map((benefit, index) => (
           <small key={index}>{benefit}</small>
